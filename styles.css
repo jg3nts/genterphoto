@@ -1,0 +1,115 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.background {
+  background-color: #353535;
+}
+.header {
+  color: #c57214;
+  margin-left: 10px;
+  margin-top: 7px;
+  padding: 0;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 135px;
+}
+.image-container {
+  flex: 1 0 calc(50% 20px);
+  margin: 10px;
+  align-content: center;
+  position: relative;
+  height: 300px;
+  width: auto;
+}
+
+.image-title {
+  color: #faebd7;
+  margin: 0;
+  text-align: center;
+  font-size: medium;
+}
+.image_title {
+  font-size: small;
+}
+.image_description {
+  font-size: x-small;
+  font-style: italic;
+  color: grey;
+}
+
+.image {
+  position: relative;
+}
+
+.image_img {
+  display: block;
+}
+
+.image_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.image_overlay--blur {
+  backdrop-filter: blur(3px);
+}
+
+.image_overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image_overlay:hover > * {
+  transform: translateY(0);
+}
+
+.image_overlay:hover {
+  opacity: 1;
+}
+a {
+  text-align: center;
+  text-decoration: none;
+}
+#hokan-ji {
+  height: 300px;
+  width: auto;
+}
+#buckingham-palace {
+  height: auto;
+  width: 300px;
+}
+#dual-tracks {
+  height: auto;
+  width: 300px;
+}
+#mackay {
+  height: auto;
+  width: 300px;
+}
+#silhouette-mira {
+  height: auto;
+  width: 300px;
+}
+#stars-through-trees {
+  height: auto;
+  width: 300px;
+}
+#sumo {
+  height: auto;
+  width: 300px;
+}
