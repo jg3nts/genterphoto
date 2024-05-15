@@ -1,0 +1,52 @@
+#title {
+  color: orange;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-bottom: 0px;
+}
+.background {
+  background-color: #353535;
+}
+
+#image {
+  height: 300px;
+  width: auto;
+  margin-left: 230px;
+  align-content: center;
+  border: solid 2px white;
+}
+#camera_settings {
+  color: rgb(136, 136, 136);
+  font-size: small;
+  font-family: "Cambria", "Cochin", Georgia, Times, "Times New Roman", serif;
+  margin-left: 780px;
+  margin-bottom: 25px;
+  margin-top: 0%;
+}
+.para {
+  font-size: medium;
+  color: antiquewhite;
+  text-align: center;
+  margin-left: 400px;
+  margin-right: 400px;
+  word-spacing: 3px;
+}
+#foot {
+  background-color: #c57214;
+  border-top: solid white 1px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 0px;
+  margin: 0px;
+}
+#foot_p {
+  color: rgb(195, 195, 195);
+  font-size: medium;
+  font-weight: 700px;
+  padding-bottom: 15px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.foot_style {
+  color: white;
+}
